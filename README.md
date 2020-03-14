@@ -1,0 +1,3 @@
+A quick comparison of Rust and Python for OpenCV development. The task here is to load an image and find some features, and display them
+
+Python is easier for experimentation (especially with Matplotlib), Rust provides more confidence in what is going on with better typing (And allows in-place modification). It is annoying that because calls to the underlying library are `unsafe` it needs constant `?` or `.unwrap()`, also Rust needs some time to compile.
